@@ -1,38 +1,63 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
-body {
-  width: 1100px;
-  margin: 0 auto;
-  font-family: Raleway, sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol,
-li,
-blockquote {
-  margin: 0;
-  padding: 0;
+html, 
+body, 
+blockquote,
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p, 
+a, 
+address, 
+span,
+ol, 
+ul, 
+li, 
+nav  {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	font: inherit;
+	font-size: 100%;
 }
 
 a {
-  color: inherit;
+	color: inherit;
+	text-decoration: none;
 }
-
 img {
-  width: 100%;
+	width: 100%;
 }
 
 button {
+	border: none;
+  border: none;
+	padding: 0;
+  color: inherit;
   font: inherit;
+	text-transform: inherit;
+  background-color: transparent;
+  cursor: pointer;
+	/* font-size: inherit; */
 }
+
+ol, ul {
+	list-style: none;
+}
+
+body {
+  max-width: 1100px;
+	margin: 0 auto;
+  color: black;
+  font-family: 'Raleway', 'Arial', 'sans-serif';
+  background-color: white;
+}
+
