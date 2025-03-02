@@ -28,7 +28,7 @@ body {
 .header__menu__list {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px 35px; 
+  gap: 10px 35px;
 }
 
 .header__menu__list li:not(:first-child) {
@@ -194,6 +194,7 @@ body {
 }
 
 /* LOTS SECTION*/
+
 .main__items {    
   height: 723px;
   margin-top: 180px;
