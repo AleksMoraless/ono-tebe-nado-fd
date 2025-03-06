@@ -45,6 +45,8 @@ button {
 	text-transform: inherit;
   background-color: transparent;
   cursor: pointer;
+	font-weight: normal;
+	line-height: normal;
 	/* font-size: inherit; */
 }
 
