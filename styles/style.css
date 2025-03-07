@@ -169,15 +169,15 @@ body {
   min-height: 596px;
 }
 
-.lots-first-card {
+.lots-movie-card {
   background-image: url(../images/pictures/photo-1.jpg);
 }
 
-.lots-second-card {
+.lots-book-card {
   background-image: url(../images/pictures/photo-2.jpg);
 }
 
-.lots-third-card {
+.lots-picture-card {
   background-image: url(../images/pictures/photo-3.jpg);
 }
 
